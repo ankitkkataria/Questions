@@ -39,9 +39,9 @@ vector<int> merge(vector<int> &nums1, vector<int> &nums2) {
 }
 
 int main() {
-  vector<int> nums1 = {1, 12, 3, 4};
-  vector<int> nums2 = {5, 6, 78, 81};
-  // Given two sorted arrays merge them into one sorted array.
+
+  vector<int> nums1 = {1, 2, 3, 4};
+  vector<int> nums2 = {5, 6, 7, 8};
 
   vector<int> res = merge(nums1, nums2);
 
